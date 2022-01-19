@@ -90,6 +90,7 @@ a:active{
 /* Styling <hr> tag */
 hr{
     border:3px solid #33658a;
+    border-radius: 10px;
 }
 
 /* Custom class style rules */
