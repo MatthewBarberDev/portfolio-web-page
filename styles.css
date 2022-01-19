@@ -5,6 +5,7 @@
     #f2e8cf - Eggshell
     #32cbff - Vivid Sky Blue
 */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:wght@400&display=swap');
 
 /* Changing box sizing for all elements*/
@@ -15,9 +16,9 @@
 /* Background for body */
 body{
     background: #33658a;
-    }
+}
 
-    /*Style rules for entire container*/
+/*Style rules for entire container*/
 .container{
     background-color: #386641;
     width:400px;
@@ -55,6 +56,7 @@ ol,ul{
     margin:0;
     padding:0;
 }
+
 ul{
     /* Get rid of bullets*/
     list-style-type:none;
@@ -86,7 +88,6 @@ a:active{
 }
 
 /* Styling <hr> tag */
- hr{
-    
+hr{
     border:3px solid #33658a;
 }
