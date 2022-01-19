@@ -1,0 +1,92 @@
+/* Color palette made with Coolors
+    #386641 - Hunter Green
+    #33658a - Queen Blue
+    #f26419 - Safety Orange Blaze
+    #f2e8cf - Eggshell
+    #32cbff - Vivid Sky Blue
+*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono:wght@400&display=swap');
+
+/* Changing box sizing for all elements*/
+*{
+    box-sizing: border-box;
+}
+
+/* Background for body */
+body{
+    background: #33658a;
+    }
+
+    /*Style rules for entire container*/
+.container{
+    background-color: #386641;
+    width:400px;
+    margin:auto; /* Centering container*/
+    color:#f2e8cf;
+    border-radius:10px;
+    font-family: 'Roboto Mono';
+    text-align:center;/* center text in container*/
+    padding:20px; /* Putting some space between the content and border*/
+}
+
+/* Font style rule for <p> tags */
+p{
+    font-size:16px;
+}
+
+/* nav link style rules*/
+header nav a{
+    margin: 0 20px;
+}
+
+/* Applying font-family to headings */
+h1,h2,h3{
+    font-family: Montserrat;
+}
+
+/* Curve border edge and set height of image */
+img{
+    border-radius:15px;
+    height:300px;
+}
+
+/* List Styling */
+ol,ul{
+    margin:0;
+    padding:0;
+}
+ul{
+    /* Get rid of bullets*/
+    list-style-type:none;
+}
+
+ol{
+    /*Bring numbers inside ol box*/
+    list-style-position: inside;
+}
+
+/*Link styling and link pseudo elements styling */
+a{
+    text-decoration:none;
+}
+
+/* Default link state*/
+a:link{
+    color:#f2e8cf;
+}
+
+a:visited{
+    color:#32cbff;
+}
+a:hover{
+    color:#f26419;
+}
+a:active{
+    color:#386641;
+}
+
+/* Styling <hr> tag */
+ hr{
+    
+    border:3px solid #33658a;
+}
